@@ -26,12 +26,4 @@ public class Money {
         return new Money(this.amount.multiply(BigDecimal.valueOf(percent)));
     }
 
-    public boolean isLessThan(Money money) {
-        return amount.compareTo(money.amount) < 0;
-    }
-
-    public boolean isGreaterThanOrEqual(Money money) {
-        return amount.compareTo(money.amount) >= 0;
-    }
-
 }
