@@ -1,6 +1,6 @@
 package bevarage;
 
-public class Coke implements Beverage {
+public class Coke extends Beverage {
     @Override
     public int getPrice() {
         return 1500;
