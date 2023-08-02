@@ -5,4 +5,9 @@ public class ZeroCoke extends Beverage {
     public int getPrice() {
         return 1500;
     }
+
+    @Override
+    public String getName() {
+        return "제로콜라";
+    }
 }

@@ -38,4 +38,16 @@ public class Wallet {
     private int calculateCoinAmount(int count) {
         return count * 500;
     }
+
+    public void putCoin(int coinCount) {
+        this.coinCount += coinCount;
+    }
+
+    public int getCashCount() {
+        return cashCount;
+    }
+
+    public int getCoinCount() {
+        return coinCount;
+    }
 }

@@ -11,4 +11,8 @@ public class Bag {
     public void put(Item item) {
         this.items.add(item);
     }
+
+    public List<Item> getItems() {
+        return items;
+    }
 }

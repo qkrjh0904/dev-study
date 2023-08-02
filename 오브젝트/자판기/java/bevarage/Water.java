@@ -5,4 +5,9 @@ public class Water extends Beverage {
     public int getPrice() {
         return 500;
     }
+
+    @Override
+    public String getName() {
+        return "물";
+    }
 }
