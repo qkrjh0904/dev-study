@@ -17,6 +17,7 @@ public class Main {
 
         Beverage beverage = vendingMachine.select("콜라");
 
+        user.putInBag(beverage);
 
     }
 }

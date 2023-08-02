@@ -1,10 +1,14 @@
 package user;
 
-import bevarage.Beverage;
+import bevarage.Item;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Bag {
-    private List<Beverage> beverages = new ArrayList<>();
+    private List<Item> items = new ArrayList<>();
+
+    public void put(Item item) {
+        this.items.add(item);
+    }
 }

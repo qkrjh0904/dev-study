@@ -1,7 +1,7 @@
 package bevarage;
 
 // 음료
-public abstract class Beverage {
+public abstract class Beverage implements Item {
     int count = 3;
 
     public static Beverage select(String name) {

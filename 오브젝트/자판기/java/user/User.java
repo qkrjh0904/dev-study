@@ -1,5 +1,7 @@
 package user;
 
+import bevarage.Item;
+
 public class User {
     private Bag bag;
     private Wallet wallet;
@@ -18,5 +20,9 @@ public class User {
 
     public int takeCoinOutOfWallet(int count) {
         return wallet.takeCoinOut(count);
+    }
+
+    public void putInBag(Item item) {
+        bag.put(item);
     }
 }
