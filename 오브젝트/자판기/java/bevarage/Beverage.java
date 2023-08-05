@@ -4,6 +4,7 @@ package bevarage;
 public abstract class Beverage implements Item {
     int count = 3;
 
+    // TODO: 2023-08-05 전략패턴으로 수정해보기
     public static Beverage select(String name) {
         switch (name) {
             case "콜라":
